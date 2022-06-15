@@ -1,10 +1,20 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.logo {
+  height: 8vmin;
+  pointer-events: none;
+}
+
+.header_nav {
+  font-size: 18px;
+  color: #006699;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -25,7 +35,41 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #006699;
+}
+
+.footer {
+  background: #006699;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  padding: 7em 0;
+}
+
+.text-uppercase {
+  font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+}
+
+.link {
+  font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    text-align: right;
+    margin-top: 20px;
+}
+.text-sitename {
+  font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    text-align: center;
 }
 
 @keyframes App-logo-spin {
